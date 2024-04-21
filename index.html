@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>First app</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/global.css">
+
+        
+
+    </head>
+    <body>
+        <!-- id is always unique -->  
+        <h1 id="test" class="abc">Jeffrey Orias</h1>
+        <h1 id="test2" class="def">Jeffrey Orias</h1>
+        <h1 id="test3" class="abc">Jeffrey Orias</h1>
+        <h1 id="test4" class="abc">Jeffrey Orias</h1>
+        <h1 id="test5" class="abc">Jeffrey Orias</h1>
+        <h1 id="test6" class="abc">Jeffrey Orias</h1>
+        <h1 id="test" class="abc">Jeffrey Orias</h1>
+
+        <div>
+            <p id="test1" class="def" >Lorem ipsum dolor sit amet.</p>
+            <p id="test1" class="def" >Lorem ipsum dolor sit amet.</p>
+        </div>
+
+      
+        <a href="https://facebook.com" target="_top">Visit FB.com</a>
+
+
+        <!-- a tag -->
+      
+
+        <!-- p tag -->
+
+        <p>
+            This  <strong>paragraph</strong>
+            contains a lot of lines
+            in the source code,
+            but the browser
+            ignores it.
+        </p>
+
+        <!-- ctrl+k+c  Images-->
+        <img src="images/img.jpg" alt="laravel herd the best" width="500px">
+
+
+        <!-- Table -->
+        <div style="border: 1px solid black; margin-top: 50px;">
+         
+        </div>
+       
+
+        <div id="company-information">
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+
+            <table>
+                <thead>
+                     <tr>
+                         <th>Name</th>
+                         <th>Addres</th>
+                         <th>Age</th>
+                     </tr>
+                </thead>
+ 
+                <tbody id="tbody">
+                
+                </tbody>
+ 
+                <tfoot>
+                 <tr>
+                   <td>Sum</td>
+                   <td>$180</td>
+                 </tr>
+               </tfoot>
+               
+             </table>
+             <div>
+                This  <strong>paragraph</strong>
+                contains a lot of lines
+                in the source code,
+                but the browser
+                ignores it.
+            </div>
+        
+            <div id="demo">
+                This  <strong>paragraph</strong>
+                contains a lot of lines
+                in the source code,
+                but the browser
+                ignores it.
+            </div>
+        </div>
+
+
+
+<script>
+//    document.getElementById("demo").innerHTMl = ;
+
+    // primitive 
+    // string, int, float, double, boolean,
+
+    // non-primitive 
+    // object,array, list, queue,
+
+// //Primitive
+//     var item = 1; //1
+//     var item2 = item; // 1
+
+//     item = "a"; // a 
+
+//     console.log(item2 = "a") // 1
+
+
+
+//     var obj1 = {name:"test"} // test
+//     var obj2 = obj1; //{name:"test"} test
+
+//     obj1.name = 1;
+
+//     console.log(obj2.name)
+
+
+    // + , -, *, /, %,
+
+  var test = 10;
+
+//   if(test == 10){
+//     document.getElementById("demo").innerHTML = 'Yes it is 10';
+//   }
+//   else if (test == 2){
+//     document.getElementById("demo").innerHTML = 'Yes it is 2';
+//   }
+//   else{
+//     document.getElementById("demo").innerHTML = 'No it is not either 10 or 2';
+//   }
+
+
+//   switch(test){
+//     case 10:
+//         document.getElementById("demo").innerHTML = 'Yes it is 10'
+//         break;
+//     case 2:
+//         document.getElementById("demo").innerHTML = 'Yes it is 2'
+//         break;
+//     default:
+//         document.getElementById("demo").innerHTML = 'No it is not either 10 or 2';
+//         break;
+
+//   }
+
+
+// intialization, target length, incemenrt or decrment
+
+// for(let i = 1; i <= test; i++){
+//     document.getElementById("demo").append(`${i},`)
+ 
+    
+// }
+
+
+// let i = 1 ;
+// while(i <= test){
+//     document.getElementById("demo").append(i + ',') //1 
+//     i++
+// }
+
+
+const numbers = [45, 4, 9, 16, 25]; 
+
+
+const persons   = [{
+    name: 'Jeffrey Orias',
+    address: 'Santo Cristo',
+    age: 25
+},
+{
+    name: 'Chikay Apurillo',
+    address: 'Santo Cristo',
+    age: 26
+},
+{
+    name: 'Lindsay Orias',
+    address: 'Sto. Cristo',
+    age: 24
+}]
+           
+
+    console.log(persons[0].name)
+
+
+// for(person of persons){
+//     const tr = document.createElement("tr");
+//     const tdName = document.createElement("td");
+//     const tdAddress = document.createElement("td");
+//     const tdAge = document.createElement("td");
+//     tdName.innerHTML = person.name;
+//     tdAddress.innerHTML = person.address;
+//     tdAge.innerHTML = person.age;
+//     tr.appendChild(tdName);
+//     tr.appendChild(tdAddress);
+//     tr.appendChild(tdAge);
+//     document.getElementById("tbody").appendChild(tr);
+// }
+
+
+
+
+
+
+
+     
+ </script>
+
+    </body>
+</html>
